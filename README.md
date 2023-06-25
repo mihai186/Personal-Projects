@@ -27,3 +27,12 @@ The "receivedData" function handles incoming data received over Bluetooth. It pa
 The "setup" function initializes the serial communication, Bluetooth, and sensor configurations.
 
 The "loop" function continuously checks for incoming data over Bluetooth and calls the "receivedData" function when data is available.
+
+## Project Requirements and Usage
+
+This project includes code for an ESP32 device that communicates with a mobile app. However, please note that the mobile app used for this project is not publicly available. It requires a team ID and specific configuration settings to establish a Bluetooth connection with the ESP32 device.
+
+While the mobile app's code is not included in this repository, the ESP32 code can still be useful for learning purposes or as a reference for similar projects. You can modify the code to work with other Bluetooth-enabled apps or adapt it to your specific requirements.
+
+Please be aware that without the compatible mobile app and team ID, the full functionality of this project may not be accessible.
+
